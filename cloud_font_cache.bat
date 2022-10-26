@@ -9,4 +9,4 @@
 ::                  https://docs.microsoft.com/en-us/typography/font-list/neue-haas-grotesk-text-pro
 
 @ECHO off
-RMDIR "%localappdata%\Microsoft\FontCache\4\CloudFonts" /S /Q
+RMDIR "C:\Users\%USERNAME%\AppData\Local\Microsoft\FontCache\4\CloudFonts" /S /Q
