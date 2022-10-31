@@ -4,6 +4,8 @@ There was an issue with PowerPoint not rendering the Microsoft Cloud fonts and w
 The resolution was discovered after finding out of a Windows registry value which can block, allow but audit, or allow any font outside the %windir%/Fonts folder to be used. In this case, I made a script to replace the sub-key with the audit value and reboot the machine to resolve the issue.
 
 
-regedit_msCloud_font.bat - This script resolves the issue by replacing the registry sub-key
+regedit_msCloud_font.ps1 - This script resolves the issue by directly installing the desired cloud font into the Windows\Fonts folder
+
+regedit_msCloud_font.bat - This script resolves the issue by replacing the registry sub-key. It's being left, but should no longer be needed
 
 cloud_font_cache.bat - This script is being left for historical purpose, but should no longer be needed
